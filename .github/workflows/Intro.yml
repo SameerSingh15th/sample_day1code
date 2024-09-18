@@ -6,5 +6,10 @@ jobs:
         steps: 
             - name: My name
               run: echo "My name is Sameer"
+    job2:
+        runs-on: windows-latest
+        steps:
+            - name: Age
+              run: echo "My age is 31."
 
 
